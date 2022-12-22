@@ -80,7 +80,7 @@ function App() {
     } else {
       todoContent = (
         <>
-        {todo.name}
+        {todo}
         <button onClick={() => setIsEditing(true)}>Edit</button>
         </>
       )
