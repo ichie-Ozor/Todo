@@ -69,7 +69,7 @@ function App() {
         <>
           <input
           type="text"
-            value={todo.name}
+            value={todo}
             onChange={(e) => {
               onChange({ ...todo, name: e.target.value });
             }}
